@@ -1,1 +1,1 @@
-https://github.com/TeeQiJing/ProfilePageShopee.git
+https://github.com/TeeQiJing/PracticalMAD/tree/96c09b63ec2ee977d7ef5576c6290b6982bfc74a/Practical3_UserProfile/ProfilePageShopee

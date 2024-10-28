@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="change_color">Change Color</string>
+    <string name="calculate">Calculate</string>
+    <string name="enter_second_number">Enter second number</string>
+    <string name="enter_first_number">Enter first number</string>
+    <string name="result">Result</string>
+    <string name="perform_simple_addition">Perform simple addition</string>
+    <string name="calculate_me">Calculate Me</string>
+</resources>

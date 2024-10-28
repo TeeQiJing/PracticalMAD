@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#FF111111</color>
+    <color name="reverse_primary">#FFFFFFFF</color>
+    <color name="secondary">#FF151515</color>
+    <color name="normal_text">#FFc0c3c4</color>
+    <color name="reverse_secondary">#FFe6e6e6</color>
+
+</resources>

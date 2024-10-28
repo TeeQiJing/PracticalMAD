@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProfilePage</string>
+
+    <string name="follow_my_instagram_teeqijing">Follow My Instagram <font color='#3689ff'>@teeqijing</font></string>
+    <string name="back_button_desc">back</string>
+    <string name="_2_024_following"><b>2,024</b> Following</string>
+    <string name="_1_4m_followers"><b>1.4M</b> Followers</string>
+    <string name="_23004894">\@23004894</string>
+    <string name="follow">Follow</string>
+</resources>

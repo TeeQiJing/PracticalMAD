@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for day mode (light theme). -->
+    <style name="Base.Theme.ProfilePageShopee" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorPrimary">@color/primary</item> <!-- White primary color -->
+        <item name="colorSecondary">@color/secondary</item> <!-- Light gray secondary color -->
+    </style>
+
+    <style name="Theme.ProfilePage" parent="Base.Theme.ProfilePageShopee" />
+</resources>

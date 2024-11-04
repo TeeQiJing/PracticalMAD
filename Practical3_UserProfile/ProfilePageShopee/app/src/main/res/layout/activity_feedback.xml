@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity">
+
+    <TextView
+        android:id="@+id/TVFeedbackTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:text="Your Opinion Matter to us!"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVFeedbackSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Are you happy with our service?"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/TVFeedbackTitle"
+        app:layout_constraintTop_toBottomOf="@+id/TVFeedbackTitle" />
+
+    <RatingBar
+        android:id="@+id/RateBarFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:progressTint="#FFFF00"
+        app:layout_constraintStart_toStartOf="@+id/TVFeedbackSubtitle"
+        app:layout_constraintTop_toBottomOf="@+id/TVFeedbackSubtitle" />
+
+    <TextView
+        android:id="@+id/TVRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="You have rated"
+        android:textColor="#FF0000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/RateBarFeedback"
+        app:layout_constraintTop_toBottomOf="@+id/RateBarFeedback" />
+
+    <TextView
+        android:id="@+id/TVFeedbackShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Tell Us More"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/TVRating"
+        app:layout_constraintTop_toBottomOf="@+id/TVRating" />
+
+    <EditText
+        android:id="@+id/ETFeedback"
+        android:layout_width="335dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Write Here"
+        android:inputType="textMultiLine"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/TVFeedbackShare"
+        app:layout_constraintTop_toBottomOf="@+id/TVFeedbackShare" />
+
+    <Button
+        android:id="@+id/BtnFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#F30404"
+        android:onClick="submitFeedback"
+        android:text="Submit Feedback"
+        app:layout_constraintEnd_toEndOf="@+id/ETFeedback"
+        app:layout_constraintTop_toBottomOf="@+id/ETFeedback" />
+</androidx.constraintlayout.widget.ConstraintLayout>

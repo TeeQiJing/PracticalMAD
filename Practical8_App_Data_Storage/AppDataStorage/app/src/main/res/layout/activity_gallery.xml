@@ -6,4 +6,43 @@
     android:layout_height="match_parent"
     tools:context=".GalleryActivity">
 
+    <TextView
+        android:id="@+id/TVGalleryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Image Gallery (Shared Storage)"
+        android:textColor="#0005FF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/IVThumb1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_holder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVGalleryTitle" />
+
+    <ImageView
+        android:id="@+id/IVThumb2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_holder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IVThumb1" />
+
+    <ImageView
+        android:id="@+id/IVThumb3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_holder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IVThumb2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
